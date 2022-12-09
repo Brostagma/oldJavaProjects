@@ -1,0 +1,31 @@
+.root{
+	
+}
+
+#leftMenuPane{
+	-fx-background-color: #132c33;
+}
+
+#rightMenuPane{
+	-fx-background-color: #126e82;
+}
+
+.label{
+	-fx-font-size: 20;
+	-fx-font-family: "Arial Black"; 
+	-fx-alignment: center;
+}
+
+.button{
+	-fx-text-fill: "white";
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+	-fx-background-color: transparent;
+}
+
+.button:hover{
+	-fx-background-color: #d8e3e7;
+	-fx-opacity: 0.3;
+	-fx-text-fill: #000000;
+}

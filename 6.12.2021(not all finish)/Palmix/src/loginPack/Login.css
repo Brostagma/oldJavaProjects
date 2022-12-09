@@ -1,0 +1,43 @@
+/*
+	bggrad: from #040404 to #40403f
+	-fx-background-color: linear-gradient(to top, #040404, #40403f);
+	-fx-background-image: url("bgimage.jpg");
+*/
+
+
+
+root {
+	display: block;
+}
+
+.root {
+	-fx-background-color: #000000;
+	
+}
+
+.label {
+   -fx-font-size: 32pt;
+   -fx-font-family: "Arial Black";
+   -fx-text-fill: #ffffff;
+   -fx-effect: dropshadow( gaussian , #7b8895 , 3,5,4,0 );
+}
+
+.button {
+	-fx-font-size: 16pt;
+	-fx-pref-width: 225px;
+}
+
+.button:hover {
+	-fx-background-color: #ffffff;
+	-fx-effect: dropshadow( gaussian , #7b8895 , 3,5,2,3 );
+}
+
+.text-field {
+	-fx-font-size: 12pt;
+}
+
+.check-box {
+	-fx-font-size: 12pt;
+	-fx-text-fill: #ffffff;
+	-fx-font-family: "Arial Black";
+}

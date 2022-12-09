@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="display.Controller">
+   <children>
+      <Pane onMousePressed="#move" prefHeight="34.0" prefWidth="816.0" AnchorPane.bottomAnchor="650.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="leftMenuPane" prefHeight="400.0" prefWidth="225.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <Button fx:id="btnAccount" layoutY="178.0" mnemonicParsing="false" onAction="#switchAccount" prefHeight="45.0" prefWidth="225.0" text="Account">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnGallery" layoutY="223.0" mnemonicParsing="false" onAction="#clear" prefHeight="45.0" prefWidth="225.0" text="Gallery">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSettings" layoutY="268.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="225.0" text="Settings">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnExit" layoutY="313.0" mnemonicParsing="false" onAction="#closeStage" prefHeight="45.0" prefWidth="225.0" text="Exit">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="rightMenuPane" layoutX="225.0" prefHeight="400.0" prefWidth="376.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+   </children>
+</AnchorPane>
